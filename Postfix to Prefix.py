@@ -1,3 +1,15 @@
+ines (54 sloc)  1.72 KB
+ 
+
+"""
+This program converts algebraic expressions in postfix form
+(like A B C * + D +) into prefix form (+ + A * B C D)
+Here are some other example postfix expressions:
+A B + C D + *
+A B * C D * +
+A B + C + D +
+"""
+
 class Stack:
     """Stack implementation as a list"""
 
